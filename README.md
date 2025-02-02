@@ -1,16 +1,52 @@
-# task_0
+# Flutter Native URL Launcher App
 
-A new Flutter project.
+This is a simple Flutter application that demonstrates how to use a custom URL launcher. The app features buttons that, when tapped, opens a specified URL.
 
+## Features
+
+- Launch URLs directly from the app.
+- User-friendly notifications on success or failure of URL launch.
+- Cross-platform support (iOS/Android).
+- Link to HNG Flutter Developer Hire page.
+- Link to the project repo
+- Link to Telex
+- Link to Delve
+
+  
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+Before running the app, ensure you have the following:
+- [Flutter](https://flutter.dev/docs/get-started/install) installed.
+- A compatible editor (e.g., Android Studio, VS Code).
+- A connected device or emulator.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Cloning the Repository
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/Topzee001/native-url-launche.git
+2. Navigate to the project directory:
+3. ```bash
+   cd native-url-launche
+### Running the App
+Fetch the required dependencies:
+```bash
+  flutter pub get
+```
+Run the App
+```bash
+  flutter run
+```
+Build the App
+```bash
+  flutter build apk
+```
+## Backlinks
+[Hire HNG Flutter Developer](http://hng.tech/hire/flutter-developers)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Appetize.io
+
+- [View App Demo](https://)
+
