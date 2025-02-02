@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../utils/app_links.dart';
 import '../utils/widget/custom_button.dart';
 import '../utils/widget/launch_url.dart';
 
@@ -22,8 +23,7 @@ class MyHomePage extends StatelessWidget {
           children: [
             MyButton(
               onPressed: () {
-                LaunchUrl.urlLaunch(
-                    context, 'https://github.com/Topzee001/native-url-launche');
+                LaunchUrl.urlLaunch(context, AppLinks.githubRepo);
               },
               text: 'Visit App GitHub Repository',
               textColor: Colors.white,
@@ -34,8 +34,7 @@ class MyHomePage extends StatelessWidget {
             ),
             MyButton(
               onPressed: () {
-                LaunchUrl.urlLaunch(
-                    context, 'http://hng.tech/hire/flutter-developers');
+                LaunchUrl.urlLaunch(context, AppLinks.hireDev);
               },
               text: 'Hire HNG Flutter Developer',
               textColor: Colors.white,
@@ -46,7 +45,7 @@ class MyHomePage extends StatelessWidget {
             ),
             MyButton(
               onPressed: () {
-                LaunchUrl.urlLaunch(context, 'https://telex.im/');
+                LaunchUrl.urlLaunch(context, AppLinks.telex);
               },
               text: 'Visit Telex',
               textColor: Colors.white,
@@ -57,7 +56,7 @@ class MyHomePage extends StatelessWidget {
             ),
             MyButton(
               onPressed: () {
-                LaunchUrl.urlLaunch(context, 'https://delve.fun/');
+                LaunchUrl.urlLaunch(context, AppLinks.delve);
               },
               text: 'Visit Delve',
               textColor: Colors.white,
