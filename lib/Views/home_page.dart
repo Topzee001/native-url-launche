@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
                 LaunchUrl.urlLaunch(
                     context, 'http://hng.tech/hire/flutter-developers');
               },
-              text: 'Hire Flutter Developer',
+              text: 'Hire HNG Flutter Developer',
               textColor: Colors.white,
               buttonColor: const Color.fromARGB(255, 33, 150, 243),
             ),
