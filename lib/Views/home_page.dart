@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-
 import '../utils/widget/custom_button.dart';
 import '../utils/widget/launch_url.dart';
 
